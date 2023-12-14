@@ -29,7 +29,7 @@
                             <a class="nav-link text-success" href="/php_2023_codoacodo/tp_integrador/pages/tickets.php">Comprar Tickets</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/administrador.php">Administrador</a>
+                            <a class="nav-link" href="/php_2023_codoacodo/tp_integrador/pages/administrador.php">Administrador</a>
                         </li>
                     </ul>
                 </div>

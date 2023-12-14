@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="/php_2023_codoacodo/tp_integrador/styles.css" rel="stylesheet">
 
     <title>Tu Conferencia</title>
 </head>
