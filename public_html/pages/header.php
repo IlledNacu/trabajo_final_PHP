@@ -2,7 +2,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="/php_2023_codoacodo/tp_integrador/index.php#conferencia"><img src="/php_2023_codoacodo/tp_integrador/assets/codoacodo.png" alt="Logo" height="40">Conf Bs
+            <a class="navbar-brand" href="../index.php#conferencia"><img src="../assets/codoacodo.png" alt="Logo" height="40">Conf Bs
                 As</a>
 
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -14,22 +14,22 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="/php_2023_codoacodo/tp_integrador/index.php#conferencia">La Conferencia</a>
+                            <a class="nav-link text-white" href="../index.php#conferencia">La Conferencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/php_2023_codoacodo/tp_integrador/index.php#oradores">Los Oradores</a>
+                            <a class="nav-link" href="../index.php#oradores">Los Oradores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/php_2023_codoacodo/tp_integrador/index.php#lugar">El Lugar y la Fecha</a>
+                            <a class="nav-link" href="../index.php#lugar">El Lugar y la Fecha</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/php_2023_codoacodo/tp_integrador/index.php#invitacion">Conviértete en Orador</a>
+                            <a class="nav-link" href="../index.php#invitacion">Conviértete en Orador</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-success" href="/php_2023_codoacodo/tp_integrador/pages/tickets.php">Comprar Tickets</a>
+                            <a class="nav-link text-success" href="tickets.php">Comprar Tickets</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/php_2023_codoacodo/tp_integrador/pages/administrador.php">Administrador</a>
+                            <a class="nav-link" href="administrador.php">Administrar</a>
                         </li>
                     </ul>
                 </div>

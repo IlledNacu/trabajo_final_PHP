@@ -10,7 +10,7 @@ require 'oradores.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="/php_2023_codoacodo/tp_integrador/styles.css" rel="stylesheet">
+    <link href="../styles.css" rel="stylesheet">
     <title>Oradores registrados</title>
 </head>
 
@@ -19,6 +19,8 @@ require 'oradores.php';
     <?php
     require 'header.php';
     ?>
+
+    <div class="row mt-5 text-center"><p>Si usted es un administrador y desea ver los detalles de los oradores registrados o eliminar a alguno, por favor inicie sesión.</p></div>
 
     <form class="row g-3 my-5 justify-content-center" method="post" action="">
         <div class="col-auto">
@@ -35,12 +37,10 @@ require 'oradores.php';
     </form>
 
     <?php
-
     $user = isset($_POST['user']) ? $_POST['user'] : '';
     $password = isset($_POST['password']) ? $_POST['password'] : '';
 
     if ($user == "codoacodo42023" && $password == "cursophp23584") {
-
     ?>
 
         <table class="table table-danger table-striped my-5">
@@ -90,8 +90,7 @@ require 'oradores.php';
         }
     }
 
-    echo "<div><img src='/php_2023_codoacodo/tp_integrador/assets/hawaii.jpg' class='img-fluid'></div>";
-
+    echo "<div><img src='../assets/hawaii3.jpg' class='img-fluid'></div>";
     require 'footer.php';
     ?>
 
